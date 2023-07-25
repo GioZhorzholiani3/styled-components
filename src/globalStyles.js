@@ -9,4 +9,13 @@ export const GlobalStyle = createGlobalStyle`
  }
 `;
 
+export const Container = styled.div``;
+export const MainHeading = styled.h1``;
+export const Heading = styled.h2``;
+export const Row = styled.div``;
+export const Column = styled.div``;
+export const TextWrapper = styled.span``;
+export const Section = styled.section``;
+export const Button = styled.button``;
+
 export default GlobalStyle;

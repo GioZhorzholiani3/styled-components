@@ -19,6 +19,19 @@ export const Container = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
 `;
+
+export const gContainer = styled.div`
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 50px;
+
+  @media screen and (max-width: 960px) {
+    padding: 0 30px;
+  }
+`;
+
 export const MainHeading = styled.h1`
   font-size: clamp(2.3rem, 6vw, 4.5rem);
   margin-bottom: 2rem;
